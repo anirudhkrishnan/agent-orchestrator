@@ -1,0 +1,1082 @@
+[
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 96
+   },
+   "mean_quality_score": 95.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 87,
+    "d2": 87,
+    "d3": 88
+   },
+   "mean_quality_score": 87.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 88
+   },
+   "mean_quality_score": 87.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 89
+   },
+   "mean_quality_score": 88.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 90
+   },
+   "mean_quality_score": 88.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 90
+   },
+   "mean_quality_score": 89.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 89
+   },
+   "mean_quality_score": 88.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 90
+   },
+   "mean_quality_score": 88.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 90
+   },
+   "mean_quality_score": 89.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 90
+   },
+   "mean_quality_score": 89.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 92
+   },
+   "mean_quality_score": 91.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 92
+   },
+   "mean_quality_score": 91.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 84,
+    "d2": 84,
+    "d3": 85
+   },
+   "mean_quality_score": 84.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 84,
+    "d2": 84,
+    "d3": 86
+   },
+   "mean_quality_score": 84.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 85,
+    "d2": 85,
+    "d3": 86
+   },
+   "mean_quality_score": 85.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 86
+   },
+   "mean_quality_score": 85.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 87
+   },
+   "mean_quality_score": 86.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 87
+   },
+   "mean_quality_score": 86.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 88
+   },
+   "mean_quality_score": 86.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 87,
+    "d2": 87,
+    "d3": 88
+   },
+   "mean_quality_score": 87.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 88
+   },
+   "mean_quality_score": 87.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 88,
+    "d2": 88,
+    "d3": 89
+   },
+   "mean_quality_score": 88.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 85,
+    "d2": 85,
+    "d3": 86
+   },
+   "mean_quality_score": 85.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 86
+   },
+   "mean_quality_score": 85.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 87
+   },
+   "mean_quality_score": 86.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 86,
+    "d2": 86,
+    "d3": 88
+   },
+   "mean_quality_score": 86.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 87,
+    "d2": 87,
+    "d3": 88
+   },
+   "mean_quality_score": 87.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 79,
+    "d2": 79,
+    "d3": 80
+   },
+   "mean_quality_score": 79.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 80,
+    "d2": 80,
+    "d3": 80
+   },
+   "mean_quality_score": 79.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 80,
+    "d2": 80,
+    "d3": 81
+   },
+   "mean_quality_score": 80.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 80,
+    "d2": 80,
+    "d3": 82
+   },
+   "mean_quality_score": 80.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 81,
+    "d2": 81,
+    "d3": 82
+   },
+   "mean_quality_score": 81.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 81,
+    "d2": 81,
+    "d3": 82
+   },
+   "mean_quality_score": 81.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 82,
+    "d2": 82,
+    "d3": 82
+   },
+   "mean_quality_score": 81.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 82,
+    "d2": 82,
+    "d3": 83
+   },
+   "mean_quality_score": 82.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 82,
+    "d2": 82,
+    "d3": 84
+   },
+   "mean_quality_score": 82.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 83,
+    "d2": 83,
+    "d3": 84
+   },
+   "mean_quality_score": 83.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 80,
+    "d2": 80,
+    "d3": 81
+   },
+   "mean_quality_score": 80.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 80,
+    "d2": 80,
+    "d3": 82
+   },
+   "mean_quality_score": 80.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 81,
+    "d2": 81,
+    "d3": 82
+   },
+   "mean_quality_score": 81.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 82,
+    "d2": 82,
+    "d3": 82
+   },
+   "mean_quality_score": 81.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 82,
+    "d2": 82,
+    "d3": 83
+   },
+   "mean_quality_score": 82.0,
+   "notes": "illustrative example score"
+  }
+ }
+]

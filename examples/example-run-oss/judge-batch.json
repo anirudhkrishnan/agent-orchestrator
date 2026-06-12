@@ -1,0 +1,3158 @@
+{
+ "run_id": "example-oss",
+ "judge_model": "example-judge",
+ "instructions_for_judge": "illustrative",
+ "baselines_present": false,
+ "items": [
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-0",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for entity_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-1",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for entity_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-2",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for entity_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-3",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for entity_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-01::sample-4",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for entity_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-0",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for entity_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-1",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for entity_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-2",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for entity_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-3",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for entity_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-02::sample-4",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for entity_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-0",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for entity_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-1",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for entity_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-2",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for entity_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-3",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for entity_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::entity_extraction::scn-03::sample-4",
+   "task_id": "entity_extraction",
+   "task_description": "entity_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for entity_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "[\"Acme Corp\",\"Globex\",\"Widget Pro\"]  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-0",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for schema_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-1",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for schema_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-2",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for schema_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-3",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for schema_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-01::sample-4",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for schema_extraction scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-0",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for schema_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-1",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for schema_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-2",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for schema_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-3",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for schema_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-02::sample-4",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for schema_extraction scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-0",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for schema_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-1",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for schema_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-2",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for schema_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-3",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for schema_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::schema_extraction::scn-03::sample-4",
+   "task_id": "schema_extraction",
+   "task_description": "schema_extraction task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for schema_extraction scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"title\":\"Migrate billing\",\"owner\":\"Priya\",\"priority\":\"high\"}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-0",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for sentiment_classification scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-1",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for sentiment_classification scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-2",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for sentiment_classification scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-3",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for sentiment_classification scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-01::sample-4",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for sentiment_classification scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-0",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for sentiment_classification scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-1",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for sentiment_classification scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-2",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for sentiment_classification scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-3",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for sentiment_classification scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-02::sample-4",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for sentiment_classification scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-0",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for sentiment_classification scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-1",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for sentiment_classification scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-2",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for sentiment_classification scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-3",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for sentiment_classification scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::sentiment_classification::scn-03::sample-4",
+   "task_id": "sentiment_classification",
+   "task_description": "sentiment_classification task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for sentiment_classification scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"sentiment\":\"positive\",\"confidence\":0.9}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-0",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for document_qa scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-1",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for document_qa scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-2",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for document_qa scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-3",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for document_qa scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-01::sample-4",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for document_qa scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-0",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for document_qa scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-1",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for document_qa scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-2",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for document_qa scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-3",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for document_qa scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-02::sample-4",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for document_qa scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-0",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for document_qa scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-1",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for document_qa scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-2",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for document_qa scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-3",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for document_qa scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::document_qa::scn-03::sample-4",
+   "task_id": "document_qa",
+   "task_description": "document_qa task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for document_qa scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "The free tier includes 5 projects.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-0",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for relevance_triage scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-1",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for relevance_triage scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-2",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for relevance_triage scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-3",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for relevance_triage scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-01::sample-4",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for relevance_triage scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-0",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for relevance_triage scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-1",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for relevance_triage scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-2",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for relevance_triage scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-3",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for relevance_triage scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-02::sample-4",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for relevance_triage scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-0",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for relevance_triage scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-1",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for relevance_triage scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-2",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for relevance_triage scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-3",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for relevance_triage scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::relevance_triage::scn-03::sample-4",
+   "task_id": "relevance_triage",
+   "task_description": "relevance_triage task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for relevance_triage scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "{\"relevant\":true,\"topics_matched\":[\"data-export\"]}  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-0",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for summary_synthesis scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-1",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for summary_synthesis scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-2",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for summary_synthesis scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-3",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for summary_synthesis scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-01::sample-4",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-01",
+   "scenario_input": "[example input for summary_synthesis scn-01]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-0",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for summary_synthesis scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-1",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for summary_synthesis scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-2",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for summary_synthesis scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-3",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for summary_synthesis scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-02::sample-4",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-02",
+   "scenario_input": "[example input for summary_synthesis scn-02]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-0",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for summary_synthesis scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 0*/",
+   "latency_ms": 1000,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    0
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-1",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for summary_synthesis scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 1*/",
+   "latency_ms": 1050,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    1
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-2",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for summary_synthesis scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 2*/",
+   "latency_ms": 1100,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    2
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-3",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for summary_synthesis scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 3*/",
+   "latency_ms": 1150,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    3
+   ],
+   "sample_count": 1
+  },
+  {
+   "item_id": "ollama/qwen3:8b::summary_synthesis::scn-03::sample-4",
+   "task_id": "summary_synthesis",
+   "task_description": "summary_synthesis task.",
+   "quality_dimensions": [
+    {
+     "name": "d1",
+     "description": "primary",
+     "weight": 0.5
+    },
+    {
+     "name": "d2",
+     "description": "secondary",
+     "weight": 0.3
+    },
+    {
+     "name": "d3",
+     "description": "format",
+     "weight": 0.2
+    }
+   ],
+   "scenario_id": "scn-03",
+   "scenario_input": "[example input for summary_synthesis scn-03]",
+   "scenario_notes": null,
+   "expected_output_shape": "see task",
+   "candidate": "ollama/qwen3:8b",
+   "candidate_output": "Completion rose from 60% to 78% after making verify optional.  /*sample 4*/",
+   "latency_ms": 1200,
+   "error": null,
+   "baseline_output": null,
+   "sample_indices": [
+    4
+   ],
+   "sample_count": 1
+  }
+ ]
+}

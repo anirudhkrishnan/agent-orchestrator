@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Test / tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Telemetry DB + local run artifacts (never commit real usage data)
+*.sqlite
+*.sqlite3
+data/telemetry*.sqlite
+data/evaluation/runs/
+data/audit/reports/
+data/improve/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Maintainer-local scrub denylist (consumed by scripts/scrub_check.sh) — never commit
+.scrub-denylist

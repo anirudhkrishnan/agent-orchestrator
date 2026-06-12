@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly run catches breakage that only shows up with the passage of time
+    # (date-dependent logic, new dependency releases).
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install (with dev extras)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Lint (ruff)
+        run: ruff check .
+
+      - name: Run test suite
+        run: pytest -q
+
+      # The score-integrity gate is the project's signature safety feature.
+      # Smoke-check that it imports + flags a stamped run, so a regression here
+      # fails CI loudly.
+      - name: Integrity-gate smoke check
+        run: |
+          python - <<'PY'
+          from orchestrator.evaluation.integrity import check_score_integrity
+          batch, scores = [], []
+          for k in range(8):
+              for j, o in enumerate("abc"):
+                  iid = f"m::t::scn-{k}::sample-{j}"
+                  batch.append({"item_id": iid, "candidate": "m", "task_id": "t",
+                                "scenario_id": f"scn-{k}", "candidate_output": f"{o}{k}"})
+                  scores.append({"item_id": iid, "candidate_scores": {"mean_quality_score": 70.0}})
+          rep = check_score_integrity(batch, scores)
+          assert not rep.passed, "integrity gate should FAIL stamped scores"
+          print("integrity gate correctly flagged stamped scores:", rep.summary())
+          PY
+
+  scrub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # No private/personal leakage in tracked files. The maintainer-local
+      # denylist layer is skipped here (the file is gitignored by design).
+      - name: Scrub check
+        run: bash scripts/scrub_check.sh

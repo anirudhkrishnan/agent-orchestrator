@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agent-orchestrator.local/schemas/routing.schema.json",
+  "title": "Orchestration Primitive — routing.json",
+  "description": "Per-slot routing table produced by the bake-off pipeline (data/routing.json), consumed at runtime to pick a model per task. Scores are 0-100.",
+  "type": "object",
+  "properties": {
+    "_README": {
+      "type": "string",
+      "description": "In-band human documentation. Consumers should ignore it (skip it when iterating slot keys)."
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "description": "One routing slot.",
+    "required": ["model", "last_baked_at"],
+    "properties": {
+      "model": {
+        "type": "string",
+        "description": "Provider/model id (e.g. 'ollama/qwen3:8b', 'anthropic/claude-opus-4-7'), OR a sentinel: 'TO_BE_BAKED' (pre-bake-off; the runtime consuming this table should fall through to its default) or 'queue-for-human' (frontier-only slot; the consuming runtime should queue the call for a human)."
+      },
+      "fallback_model": {
+        "type": "string",
+        "description": "Model the consuming runtime should fall back to if the primary errors."
+      },
+      "judge_model": {
+        "type": "string",
+        "description": "Identifier of the judge that produced this entry's scores."
+      },
+      "last_baked_at": {
+        "type": ["string", "null"],
+        "description": "ISO-8601 timestamp of the bake-off that wrote this entry. null until first bake-off. A 'queue-for-human' slot with a non-null last_baked_at means it WAS measured and the verdict was 'no OSS pick' — that still counts as baked for the completeness gate."
+      },
+      "p50_quality_score": {
+        "type": ["number", "null"],
+        "minimum": 0,
+        "maximum": 100,
+        "description": "Median quality score (0-100) of the winning model on the bake-off scenario set."
+      },
+      "p50_combined_score": {
+        "type": ["number", "null"],
+        "minimum": 0,
+        "maximum": 100,
+        "description": "Median combined (quality+speed) score (0-100)."
+      },
+      "p50_latency_ms": {
+        "type": ["number", "null"],
+        "minimum": 0,
+        "description": "Median wall-clock latency in ms observed during bake-off."
+      },
+      "quality_pct_of_judge": {
+        "type": ["number", "null"],
+        "minimum": 0,
+        "description": "Winning model's quality as a percentage of the frontier judge baseline. The load-bearing delegation metric."
+      },
+      "cost_per_call_usd": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Mean cost per call. 0 for local Ollama models."
+      },
+      "rationale": {
+        "type": "string",
+        "description": "Human-readable explanation of the pick + known failure modes."
+      }
+    },
+    "additionalProperties": true
+  }
+}

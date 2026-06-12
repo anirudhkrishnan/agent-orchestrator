@@ -1,0 +1,252 @@
+# tasks-example.yaml — a generic, domain-neutral example task set.
+#
+# This is a STARTER set to show the shape. The whole point of the framework is
+# that YOU replace these with YOUR application's real tasks, drawn from YOUR
+# real inputs (see the "Scenario authoring rules" in src/orchestrator/evaluation/README.md):
+# scenarios must resemble actual application need, or the routing decision won't
+# generalize.
+#
+# 6 task types × 3 scenarios. Quality-dimension weights sum to 1.0 per task.
+# Combined score = 0.7 * quality + 0.3 * speed (quality-weighted; configurable).
+
+# ─────────────────────────────────────────────────────────────
+- id: entity_extraction
+  description: Pull named entities out of a short text and return a deduped JSON array.
+  system_prompt: |
+    You extract named entities from text. Return a JSON array of the distinct
+    proper nouns (people, organizations, products, places) mentioned. Uppercase
+    nothing; preserve the surface form. Reject common words. Return ONLY the JSON
+    array — no prose, no fences.
+  max_response_tokens: 128
+  quality_dimensions:
+    - name: recall
+      description: Did it catch every real entity?
+      weight: 0.4
+    - name: precision
+      description: Did it avoid false positives / hallucinations?
+      weight: 0.4
+    - name: format_compliance
+      description: Clean JSON array of strings, no prose, no fences?
+      weight: 0.2
+  scenarios:
+    - id: scn-01
+      input: |
+        Acme Corp announced a partnership with Globex and Initech to ship the
+        Widget Pro next quarter. CEO Dana Lee will present in Berlin.
+      notes: 'Expected: ["Acme Corp","Globex","Initech","Widget Pro","Dana Lee","Berlin"].'
+      expected_output_shape: JSON array of strings
+    - id: scn-02
+      input: |
+        The Northwind report cited Contoso and Fabrikam as the two fastest movers,
+        with the Helios platform a distant third.
+      notes: 'Expected: ["Northwind","Contoso","Fabrikam","Helios"].'
+      expected_output_shape: JSON array
+    - id: scn-03
+      input: |
+        No companies were named in the memo; it discussed the IT budget and the
+        Q3 hiring freeze in general terms.
+      notes: 'Expected: [] — tests the false-positive trap (IT, Q3 are not entities).'
+      expected_output_shape: JSON array (possibly empty)
+
+# ─────────────────────────────────────────────────────────────
+- id: relevance_triage
+  description: Given an item + a watch-list, decide relevance and justify in one sentence.
+  system_prompt: |
+    You triage incoming items against a watch-list of topics. Output JSON:
+      {"relevant": true|false, "topics_matched": [...], "justification": "..."}
+    "relevant" = true if the item materially concerns any watched topic.
+    Justification is one sentence (max 25 words). Be strict: vague mentions are
+    not relevant. Always return valid JSON, no prose outside it.
+  max_response_tokens: 256
+  quality_dimensions:
+    - name: relevance_accuracy
+      description: Was the relevant/not-relevant call correct?
+      weight: 0.5
+    - name: reasoning_quality
+      description: Is the justification specific and defensible (not boilerplate)?
+      weight: 0.3
+    - name: format_compliance
+      description: Valid JSON with the right keys?
+      weight: 0.2
+  scenarios:
+    - id: scn-01
+      input: |
+        Watched topics: ["billing", "auth", "data-export"]
+        Item: "Customers report the CSV export button returns an empty file since
+        the 4.2 release."
+      notes: Relevant via data-export. Expected relevant=true, topics ["data-export"].
+      expected_output_shape: JSON object
+    - id: scn-02
+      input: |
+        Watched topics: ["billing", "auth", "data-export"]
+        Item: "The office coffee machine is broken again."
+      notes: Clearly irrelevant. Expected relevant=false.
+      expected_output_shape: JSON object
+    - id: scn-03
+      input: |
+        Watched topics: ["billing", "auth", "data-export"]
+        Item: "Several users can't reset their password; the reset email never
+        arrives."
+      notes: Relevant via auth (password reset). Tests indirect-match reasoning.
+      expected_output_shape: JSON object
+
+# ─────────────────────────────────────────────────────────────
+- id: sentiment_classification
+  description: Classify the directional sentiment of a short message.
+  system_prompt: |
+    You classify the sentiment of a message. Output JSON:
+      {"sentiment": "positive"|"negative"|"neutral", "confidence": 0.0-1.0,
+       "justification": "<one sentence>"}
+    Be strict about confidence: only > 0.8 if unambiguous. Neutral =
+    informational / balanced / unclear.
+  max_response_tokens: 200
+  quality_dimensions:
+    - name: label_accuracy
+      description: Is the label correct?
+      weight: 0.5
+    - name: confidence_calibration
+      description: Appropriate confidence (high for clear, low for hedged)?
+      weight: 0.3
+    - name: format_compliance
+      description: Valid JSON, one-sentence justification?
+      weight: 0.2
+  scenarios:
+    - id: scn-01
+      input: 'Message: "This update completely fixed my problem — fantastic work, thank you!"'
+      notes: Unambiguously positive, high confidence.
+      expected_output_shape: JSON object
+    - id: scn-02
+      input: 'Message: "The new layout rolls out to all users next Tuesday via the 5.1 update."'
+      notes: Neutral — purely informational. Tests the false-positive-sentiment trap.
+      expected_output_shape: JSON object
+    - id: scn-03
+      input: 'Message: "Faster now, but the new menu hides the one button I use most."'
+      notes: Mixed/hedged → neutral or low-confidence. Tests calibration on two-sided input.
+      expected_output_shape: JSON object
+
+# ─────────────────────────────────────────────────────────────
+- id: schema_extraction
+  description: Extract structured fields from prose into a fixed JSON schema.
+  system_prompt: |
+    Extract fields from the input into this JSON object:
+      {"title": str|null, "owner": str|null, "due_date": str|null,
+       "priority": "low"|"medium"|"high"|null, "amount_usd": float|null}
+    Use null for fields not present. Return ONLY the JSON object, no prose.
+  max_response_tokens: 256
+  quality_dimensions:
+    - name: field_accuracy
+      description: Are extracted values correct?
+      weight: 0.5
+    - name: field_completeness
+      description: All available fields populated (null for missing)?
+      weight: 0.3
+    - name: format_compliance
+      description: Valid JSON with the exact keys?
+      weight: 0.2
+  scenarios:
+    - id: scn-01
+      input: |
+        "Migrate the billing service" — owned by Priya, due 2026-07-15, high
+        priority. Estimated cost $12,500.
+      notes: 'All fields present. amount_usd=12500.0, priority="high".'
+      expected_output_shape: JSON object with all 5 keys
+    - id: scn-02
+      input: |
+        Ticket: rotate the API keys before the audit. No owner assigned yet.
+      notes: title + maybe due/priority null; owner null; amount null.
+      expected_output_shape: JSON object
+    - id: scn-03
+      input: |
+        Reminder sent. No actionable details.
+      notes: All fields null. Tests "don't fabricate".
+      expected_output_shape: JSON object with all keys null
+
+# ─────────────────────────────────────────────────────────────
+- id: summary_synthesis
+  description: Given an existing summary + a new datapoint, write a 3-5 sentence updated summary.
+  system_prompt: |
+    You maintain a living summary. Given (a) an existing summary and (b) a new
+    datapoint, write 3-5 sentences capturing the CURRENT state. Address:
+    (1) does the new data confirm, contradict, or modify the existing summary,
+    (2) the most important takeaway, (3) any change in confidence. Be specific,
+    reference numbers from the inputs, make a call (no "more research needed").
+    Plain prose, no bullets.
+  max_response_tokens: 400
+  quality_dimensions:
+    - name: factual_accuracy
+      description: Numbers/claims drawn from inputs without fabrication?
+      weight: 0.4
+    - name: coverage
+      description: Addresses confirm/contradict, takeaway, and confidence?
+      weight: 0.3
+    - name: coherence
+      description: Reads as one unified passage?
+      weight: 0.2
+    - name: format_compliance
+      description: 3-5 sentences, plain prose, no bullets?
+      weight: 0.1
+  scenarios:
+    - id: scn-01
+      input: |
+        Existing summary: "Onboarding completion is ~60%; the email-verify step
+        is the main drop-off."
+        New datapoint: "After making email-verify optional, completion rose to
+        78% week-over-week with no rise in spam signups."
+      notes: Confirms the hypothesis; confidence up. Good answer cites 60→78%.
+      expected_output_shape: 3-5 sentences
+    - id: scn-02
+      input: |
+        Existing summary: "The new cache cut p95 latency from 800ms to 300ms."
+        New datapoint: "p95 held at 310ms but error rate climbed from 0.1% to 1.4%
+        under peak load."
+      notes: Modifies — latency win confirmed, but a new reliability concern. Good answer holds both.
+      expected_output_shape: 3-5 sentences
+    - id: scn-03
+      input: |
+        Existing summary: "Feature X adoption is strong among power users."
+        New datapoint: "A cohort cut shows adoption is 40% for accounts <30 days
+        old vs 8% for older accounts — it's new users, not power users."
+      notes: Contradicts the framing. Confidence in the original claim should drop.
+      expected_output_shape: 3-5 sentences
+
+# ─────────────────────────────────────────────────────────────
+- id: document_qa
+  description: Answer a question strictly from a provided document excerpt.
+  system_prompt: |
+    Answer questions using ONLY the provided document. Rules:
+    1. Use only information in the document.
+    2. If the answer isn't present, say "Not in this document" — don't guess.
+    3. Quote or paraphrase the relevant fragment.
+    4. Be concise: 1-3 sentences, no preamble.
+  max_response_tokens: 256
+  quality_dimensions:
+    - name: answer_accuracy
+      description: Correct based on the document?
+      weight: 0.5
+    - name: groundedness
+      description: Tied to the document, no fabrication?
+      weight: 0.3
+    - name: conciseness
+      description: 1-3 sentences, no padding?
+      weight: 0.2
+  scenarios:
+    - id: scn-01
+      input: |
+        Document: "The free tier includes 5 projects and 1 GB storage. Paid tiers
+        start at $9/month for 50 projects and 50 GB."
+        Question: How many projects does the free tier include?
+      notes: Direct lookup. Expected "5 projects".
+      expected_output_shape: 1-3 sentences
+    - id: scn-02
+      input: |
+        Document: "Backups run nightly and are retained for 30 days."
+        Question: What is the data-center physical security policy?
+      notes: Not answerable → "Not in this document". Hallucinating a policy is a fail.
+      expected_output_shape: 1-3 sentences
+    - id: scn-03
+      input: |
+        Document: "The API rate limit is 100 requests/minute; bursts up to 200 are
+        allowed for 10 seconds."
+        Question: Can I send 150 requests in one minute?
+      notes: Requires light reasoning over the limit + burst rule. Good answer explains the burst allowance.
+      expected_output_shape: 1-3 sentences

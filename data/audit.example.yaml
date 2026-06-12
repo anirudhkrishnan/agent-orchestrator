@@ -1,0 +1,58 @@
+# Example audit config. Copy to audit.yaml and edit for your app.
+# Consumed by: orchestrator-audit run/finalize --app <name> --config <this file>
+# Paths are relative to this file's directory.
+#
+# The audit samples live routed calls (from the telemetry DB), re-judges a fraction,
+# and alarms when a slot drifts below your line. It returns a NON-ZERO exit code on
+# drift / incomplete scope / "couldn't verify" — so automation can't read a silent pass.
+
+app_name: example-app
+
+# Every task ("slot") this app routes. The completeness gate refuses to pass while any
+# of these is unbaked in routing.json.
+slots_in_scope:
+  - entity_extraction
+  - relevance_triage
+  - sentiment_classification
+  - schema_extraction
+  - summary_synthesis
+  - document_qa
+
+routing_json_path: routing.json
+
+# Quality thresholds, as a % of the judge baseline. rebake MUST be strictly below warn
+# (equal thresholds would collapse the warn band — the loader enforces this).
+warn_threshold_pct: 95.0      # below this → WARN
+rebake_threshold_pct: 80.0    # below this → recommend re-bake (and a non-zero exit)
+
+# Drift sampling.
+sample_rate: 0.05             # re-judge 5% of routed calls
+max_samples_per_slot: 20
+lookback_days: 7
+
+judge_model: my-judge         # any strong model OUTSIDE the candidate pool
+
+# Operational alarms.
+max_fallback_rate_pct: 5.0    # high fallback usage = primary may be failing
+max_error_rate_pct: 2.0
+
+out_dir: audit/reports
+
+# Pricing for the cost / savings accounting. frontier_model is the Tier-0 reference;
+# entries give per-1M-token rates. Local models are 0. Unknown models are flagged, not
+# counted as savings.
+pricing:
+  frontier_model: frontier-top
+  entries:
+    - model: frontier-top
+      input_usd_per_1m: 15.0
+      output_usd_per_1m: 75.0
+    - model: anthropic/claude-sonnet-4-6
+      input_usd_per_1m: 3.0
+      output_usd_per_1m: 15.0
+    - model: ollama/qwen3:8b
+      input_usd_per_1m: 0.0
+      output_usd_per_1m: 0.0
+    - model: ollama/gemma3:4b
+      input_usd_per_1m: 0.0
+      output_usd_per_1m: 0.0

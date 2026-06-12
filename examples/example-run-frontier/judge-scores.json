@@ -1,0 +1,2162 @@
+[
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::entity_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::entity_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::schema_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::schema_extraction::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 96
+   },
+   "mean_quality_score": 95.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 96
+   },
+   "mean_quality_score": 95.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::sentiment_classification::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::sentiment_classification::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 96
+   },
+   "mean_quality_score": 95.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 96
+   },
+   "mean_quality_score": 95.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 99.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 100,
+    "d2": 100,
+    "d3": 100
+   },
+   "mean_quality_score": 100.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 97
+   },
+   "mean_quality_score": 96.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 96,
+    "d2": 96,
+    "d3": 98
+   },
+   "mean_quality_score": 96.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::document_qa::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 97,
+    "d2": 97,
+    "d3": 98
+   },
+   "mean_quality_score": 97.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 98
+   },
+   "mean_quality_score": 97.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 99
+   },
+   "mean_quality_score": 98.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 98,
+    "d2": 98,
+    "d3": 100
+   },
+   "mean_quality_score": 98.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::document_qa::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 99,
+    "d2": 99,
+    "d3": 100
+   },
+   "mean_quality_score": 99.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 92
+   },
+   "mean_quality_score": 91.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 96
+   },
+   "mean_quality_score": 94.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 92
+   },
+   "mean_quality_score": 91.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::relevance_triage::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::relevance_triage::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 90
+   },
+   "mean_quality_score": 89.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-01::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-01::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-01::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-01::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 96
+   },
+   "mean_quality_score": 94.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-01::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 92
+   },
+   "mean_quality_score": 91.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-02::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 93
+   },
+   "mean_quality_score": 92.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-02::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 92,
+    "d2": 92,
+    "d3": 94
+   },
+   "mean_quality_score": 92.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-02::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-02::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-02::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 89,
+    "d2": 89,
+    "d3": 90
+   },
+   "mean_quality_score": 89.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 90
+   },
+   "mean_quality_score": 89.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 91
+   },
+   "mean_quality_score": 90.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 90,
+    "d2": 90,
+    "d3": 92
+   },
+   "mean_quality_score": 90.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-haiku-4-5::summary_synthesis::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 91,
+    "d2": 91,
+    "d3": 92
+   },
+   "mean_quality_score": 91.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-03::sample-0",
+  "candidate_scores": {
+   "scores": {
+    "d1": 93,
+    "d2": 93,
+    "d3": 94
+   },
+   "mean_quality_score": 93.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-03::sample-1",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 94
+   },
+   "mean_quality_score": 93.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-03::sample-2",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 95
+   },
+   "mean_quality_score": 94.0,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-03::sample-3",
+  "candidate_scores": {
+   "scores": {
+    "d1": 94,
+    "d2": 94,
+    "d3": 96
+   },
+   "mean_quality_score": 94.5,
+   "notes": "illustrative example score"
+  }
+ },
+ {
+  "item_id": "anthropic/claude-sonnet-4-6::summary_synthesis::scn-03::sample-4",
+  "candidate_scores": {
+   "scores": {
+    "d1": 95,
+    "d2": 95,
+    "d3": 96
+   },
+   "mean_quality_score": 95.0,
+   "notes": "illustrative example score"
+  }
+ }
+]

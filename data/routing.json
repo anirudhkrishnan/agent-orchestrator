@@ -1,0 +1,94 @@
+{
+  "_README": "EXAMPLE routing table — the output of a bake-off, consumed at runtime to pick a model per task ('slot'). Values here are illustrative, not from a real run. Generate your own with: `orchestrator-eval run` → judge → `orchestrator-eval finalize`, then paste the suggested block here. Scores are 0-100. `model` may be a real id, the sentinel 'TO_BE_BAKED' (pre-bake-off), or 'queue-for-human' (route to a human/frontier step). See schemas/routing.schema.json.",
+
+  "entity_extraction": {
+    "model": "ollama/qwen3:8b",
+    "fallback_model": "ollama/gemma3:4b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 98.0,
+    "p50_combined_score": 96.8,
+    "p50_latency_ms": 1230,
+    "quality_pct_of_judge": 98.0,
+    "cost_per_call_usd": 0,
+    "rationale": "Local model at 98% of judge quality, fastest latency. Near-deterministic task — low variance across N=5 samples."
+  },
+
+  "relevance_triage": {
+    "model": "ollama/qwen3:8b",
+    "fallback_model": "ollama/gemma3:4b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 86.0,
+    "p50_combined_score": 85.0,
+    "p50_latency_ms": 2500,
+    "quality_pct_of_judge": 86.0,
+    "cost_per_call_usd": 0,
+    "rationale": "86% of judge. Known weakness: indirect/second-order relevance. Watch this slot's drift in the audit."
+  },
+
+  "sentiment_classification": {
+    "model": "ollama/gemma3:4b",
+    "fallback_model": "ollama/qwen3:8b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 84.0,
+    "p50_combined_score": 84.0,
+    "p50_latency_ms": 2400,
+    "quality_pct_of_judge": 84.0,
+    "cost_per_call_usd": 0,
+    "rationale": "Fast + adequate. Known failure mode: informational messages misread as positive — keep a frontier fallback if false-positives are costly."
+  },
+
+  "schema_extraction": {
+    "model": "ollama/gemma3:4b",
+    "fallback_model": "ollama/qwen3:8b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 96.0,
+    "p50_combined_score": 90.6,
+    "p50_latency_ms": 4825,
+    "quality_pct_of_judge": 96.0,
+    "cost_per_call_usd": 0,
+    "rationale": "96% of judge. Caveat: occasionally wraps JSON in ```fences — harmless if downstream strips them."
+  },
+
+  "summary_synthesis": {
+    "model": "anthropic/claude-sonnet-4-6",
+    "fallback_model": "ollama/qwen3:8b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 95.0,
+    "p50_combined_score": 92.0,
+    "p50_latency_ms": 6000,
+    "quality_pct_of_judge": 95.0,
+    "cost_per_call_usd": 0,
+    "rationale": "Tier-1 frontier model clears the 95% bar where local models lagged on the confirm/contradict/confidence reasoning. Cheaper than top-tier; routed here in tiered mode."
+  },
+
+  "document_qa": {
+    "model": "ollama/qwen3:8b",
+    "fallback_model": "ollama/gemma3:4b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": "2026-05-28T00:00:00+00:00",
+    "p50_quality_score": 90.0,
+    "p50_combined_score": 90.8,
+    "p50_latency_ms": 1570,
+    "quality_pct_of_judge": 90.0,
+    "cost_per_call_usd": 0,
+    "rationale": "90% of judge, fast. Known weakness: questions needing arithmetic over the document — flag those to a stronger tier."
+  },
+
+  "code_edit": {
+    "model": "queue-for-human",
+    "fallback_model": "ollama/qwen3:8b",
+    "judge_model": "frontier-judge",
+    "last_baked_at": null,
+    "p50_quality_score": null,
+    "p50_combined_score": null,
+    "p50_latency_ms": null,
+    "quality_pct_of_judge": null,
+    "cost_per_call_usd": 0,
+    "rationale": "NOT YET BAKED. High-stakes; routed to an interactive/frontier step until a bake-off shows a candidate clears the bar. The sentinel tells the runtime to queue, not auto-route."
+  }
+}

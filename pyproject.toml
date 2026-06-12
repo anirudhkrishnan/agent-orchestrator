@@ -1,0 +1,54 @@
+[project]
+name = "agent-orchestrator"
+version = "0.1.0"
+description = "Honest, per-application model orchestration for agents: bake-off → tiered routing → audit → self-improvement, with integrity gates that refuse to lie about whether it works."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "anirudhkrishnan" }]
+keywords = ["llm", "evaluation", "model-routing", "eval", "cost-optimization", "local-models", "ollama", "self-improving"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = [
+    "httpx>=0.27",      # Ollama HTTP transport for the bake-off runner
+    "pydantic>=2.6",    # typed config + run/score schemas
+    "pyyaml>=6.0",      # task-set authoring format
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-mock>=3.14", "jsonschema>=4.0", "ruff>=0.4"]
+
+[project.urls]
+Homepage = "https://github.com/anirudhkrishnan/agent-orchestrator"
+Repository = "https://github.com/anirudhkrishnan/agent-orchestrator"
+Issues = "https://github.com/anirudhkrishnan/agent-orchestrator/issues"
+
+[project.scripts]
+orchestrator-eval = "orchestrator.evaluation.cli:main"
+orchestrator-audit = "orchestrator.audit.cli:main"
+orchestrator-improve = "orchestrator.improve.cli:main"
+orchestrator-onboard = "orchestrator.onboarding.cli:main"
+orchestrator-tiered = "orchestrator.tiered.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/orchestrator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
